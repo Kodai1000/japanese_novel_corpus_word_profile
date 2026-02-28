@@ -12,7 +12,9 @@ export default async function Page({
 }) {
     const {slug} = await params;
     const decodedSlug = decodeURI(slug);
-    const data = await fetch(`https://novel-corpus-api-1.onrender.com/get_relative_words/夏目漱石/${slug}`)
+    const data = await fetch(`https://novel-corpus-api-1.onrender.com/get_relative_words/夏目漱石/${slug}`,
+        {cache: 'no-store'}
+    )
     const data_json = await data.json()
     return(
         <>
