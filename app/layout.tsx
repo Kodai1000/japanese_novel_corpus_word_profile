@@ -27,7 +27,7 @@ export default function RootLayout({
     <html lang="ja">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <div className="bg-green-200">
-          <h1 className="text-3xl">夏目漱石文学共起語検索ツール</h1>
+          <h1 className="text-xl font-semibold">夏目漱石文学共起語検索ツール</h1>
           <p>青空文庫上の夏目漱石の作品上の単語と係り受け関係にある単語を検索できます。</p>
         </div>
 
