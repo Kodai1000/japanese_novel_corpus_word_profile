@@ -1,6 +1,6 @@
 # 夏目漱石小説共起検索ツール
 夏目漱石の小説のうち、ある語と係り受け関係にある語を調べることができます。
-制作には、[自作の(API)](https://github.com/Kodai1000/novel_corpus_api)を用いています。
+制作には、[自作のAPI](https://github.com/Kodai1000/novel_corpus_api)を用いています。
 
 [実際にデプロイしたサイトはこちら](https://japanese-novel-corpus-word-profile.vercel.app/)
 
